@@ -6,6 +6,6 @@ el cual puede buscarlos por el nombre de restaurante.
 
 #### Prototipo de baja fidelidad.
 
-![Sin titulo](picture/prototipo_uno.png)
-![Sin titulo](picture/prototipo_dos.png)
+![Sin titulo](picture/prototipo_uno.jpg)
+![Sin titulo](picture/prototipo_dos.jpg)
 
