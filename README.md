@@ -1,16 +1,5 @@
 #  F O O D M A P
 
-<<<<<<< HEAD
-#### Objetivo
-Crear una aplicación que permita al usuario buscar los restaurantes que esten cerca de su ubicación,
-el cual puede buscarlos por el nombre de restaurante.
-
-#### Prototipo de baja fidelidad.
-
-![Sin titulo](picture/prototipo_uno.jpg)
-![Sin titulo](picture/prototipo_dos.jpg)
-
-=======
 ## INTRODUCCIÓN
 FoodMap es una aplicación que permite al usuario buscar restaurantes cerca o alrededores,ademas te permite ver los datos relevantes 
 de un restaurante, como la imagen, nombre, dirección, teléfono, y ubicación.
@@ -49,4 +38,3 @@ El público objetivo son personas a partir de 10 a 50 años.
 
     Los usuarios podrán visualizar los distintos restaurantes de acuerdo a la zona donde se encuentren, y podrán visualizar el nombre, dirección, teléfono y ubicación del restaurante
     seleccionado,por lo tanto el usuario tendrá varias alternativas a escoger.
->>>>>>> ce1e39599ac814d5cca4e1ed90da4a5e9c690130
