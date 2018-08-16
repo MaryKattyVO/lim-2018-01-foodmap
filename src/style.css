@@ -1,3 +1,7 @@
+body {
+    background-color: black; 
+    color: white; 
+}
 #preloard {
     font-family: cursive;
     height: 100%;
@@ -28,20 +32,36 @@ h1 {
 .barTitle {
     color: bisque;
 }
-<<<<<<< HEAD
-.nav {
-    display:none;z-index:2;
-    width:40%;min-width:300px
+
+#title {
+    color:orange;
+    text-align: center;
+    margin: 1;
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: cursive;
 }
-.cont {
-    max-width:1200px;
-    margin-top:100px
+.searchDiv {
+    text-align: center;
+    padding: 10px 10px;
 }
-=======
+.search {
+    width:500px;
+    height:25px;
+    box-shadow: 0 0 1em gold;
+}
 
 .sizePicture {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 250px;
     padding: 10px 20px;
+    border: 1px solid #FFF;
 }
->>>>>>> 6a7b8aa683a350d5ca29bf93d4cf3bb4d6ac303d
+.restaurant {
+    float: left;
+    width: 20em;
+    height: 20em;
+    margin: 3px;
+    padding: 40px 40px;
+  
+}
