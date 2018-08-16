@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyAagssjokhkIDytv0WJWkqB9hj1I0nCsjU",
-    authDomain: "foodmap-a9c1f.firebaseapp.com",
-    databaseURL: "https://foodmap-a9c1f.firebaseio.com",
-    projectId: "foodmap-a9c1f",
-    storageBucket: "foodmap-a9c1f.appspot.com",
-    messagingSenderId: "203988215366"
-  };
-  firebase.initializeApp(config);
-=======
 //DOM
 const photoRestaurant = document.getElementById('photoRestaurant');
 const contentRestaurant = document.getElementById('contentRestaurant');
@@ -20,6 +8,17 @@ window.onload =  () => {
     preloard.style.visibility = 'hidden';
     preloard.style.opacity = '0';
 }
+
+
+
+
+    fetch(/src/restaurants.json)
+    .then (res=>res.json())
+    .then(data =>{
+        console.log(data);
+    })
+ 
+  
 
 firebase.database().ref().child('restaurant/barranco')
 .on('value', (data) => {
@@ -46,4 +45,3 @@ firebase.database().ref().child('restaurant/barranco')
     });
     presentation.innerHTML = imagen;    
 })
->>>>>>> 6a7b8aa683a350d5ca29bf93d4cf3bb4d6ac303d
