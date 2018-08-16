@@ -1,3 +1,7 @@
+body {
+    background-color: black; /* La página de fondo será negra */
+    color: white; /*El texto de la página será blanco */
+}
 #preloard {
     font-family: cursive;
     height: 100%;
@@ -28,20 +32,25 @@ h1 {
 .barTitle {
     color: bisque;
 }
-<<<<<<< HEAD
-.nav {
-    display:none;z-index:2;
-    width:40%;min-width:300px
-}
-.cont {
-    max-width:1200px;
-    margin-top:100px
-}
-=======
 
+p {
+    color:orange;
+    text-align: center;
+    margin: 1;
+    font-size: 30px;
+    margin-top: 0px;
+    font-family: cursive;
+}
+.searchDiv {
+    text-align: center;
+}
+.search {
+    width:500px;
+    height:25px;
+    box-shadow: 0 0 1em gold;
+}
 .sizePicture {
     width: 400px;
     height: 350px;
     padding: 10px 20px;
 }
->>>>>>> 6a7b8aa683a350d5ca29bf93d4cf3bb4d6ac303d
