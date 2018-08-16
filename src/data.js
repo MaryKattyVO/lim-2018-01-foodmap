@@ -25,5 +25,3 @@ firebase.database().ref().child('restaurants')
     });
     presentation.innerHTML = imagen;    
 })
-
- 
