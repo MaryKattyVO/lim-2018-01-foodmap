@@ -1,6 +1,6 @@
 body {
-    background-color: black; /* La página de fondo será negra */
-    color: white; /*El texto de la página será blanco */
+    background-color: black; 
+    color: white; 
 }
 #preloard {
     font-family: cursive;
@@ -33,7 +33,7 @@ h1 {
     color: bisque;
 }
 
-p {
+#title {
     color:orange;
     text-align: center;
     margin: 1;
@@ -43,14 +43,25 @@ p {
 }
 .searchDiv {
     text-align: center;
+    padding: 10px 10px;
 }
 .search {
     width:500px;
     height:25px;
     box-shadow: 0 0 1em gold;
 }
+
 .sizePicture {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 250px;
     padding: 10px 20px;
+    border: 1px solid #FFF;
+}
+.restaurant {
+    float: left;
+    width: 20em;
+    height: 20em;
+    margin: 3px;
+    padding: 40px 40px;
+  
 }
